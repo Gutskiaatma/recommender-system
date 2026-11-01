@@ -1,0 +1,31 @@
+query_id,split,query
+q01,dev,I want a smartphone with an excellent camera and long battery life
+q02,dev,cheap phone under $100 that works well for calls and texts
+q03,dev,phone with a big bright screen for watching videos
+q04,dev,fast phone for gaming that does not lag
+q05,dev,durable phone that survives drops and lasts for years
+q06,dev,dual sim phone with good signal for international travel
+q07,dev,Samsung phone with a great camera
+q08,dev,simple phone for my elderly parents with loud speaker and easy to use
+q09,dev,phone with lots of storage and a memory card slot for photos and music
+q10,dev,lightweight compact phone that fits in my pocket
+q11,test,"smartphone with an excellent camera, long battery life, and good performance for gaming"
+q12,test,budget phone with a battery that lasts all day
+q13,test,iPhone in good condition with long battery life
+q14,test,phone with great selfie camera for social media
+q15,test,best value for money android phone under $200
+q16,test,phone with loud clear speakers for music
+q17,test,phone with excellent call quality and strong reception
+q18,test,phone with a smooth fast processor for multitasking with many apps
+q19,test,phone with a sharp high resolution display
+q20,test,reliable phone that does not freeze or restart randomly
+q21,test,phone that charges quickly and holds a charge
+q22,test,large screen phone with good battery for reading and browsing
+q23,test,small phone with a good camera
+q24,test,phone with clean software and regular android updates
+q25,test,"sturdy phone with good build quality, I don't care about the camera"
+q26,test,4G LTE unlocked phone for less than $150
+q27,test,Motorola phone with good battery life
+q28,test,phone for a teenager that is affordable and takes good pictures
+q29,test,premium flagship phone with the best performance
+q30,test,phone with good wifi and bluetooth connectivity

@@ -1,0 +1,21 @@
+# Core data + NLP
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+pyyaml==6.0.3
+vaderSentiment==3.3.2
+# Transformers (CPU is enough). On Windows/macOS, pip installs the CPU build of torch by default.
+torch==2.14.0
+transformers==5.17.0
+sentence-transformers==6.1.0
+# API
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+pydantic==2.13.5
+# Analysis, testing
+matplotlib==3.11.2
+pytest==9.1.1
+httpx==0.28.1

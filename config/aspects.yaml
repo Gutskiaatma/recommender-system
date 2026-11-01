@@ -1,0 +1,92 @@
+# Aspect lexicon.
+# terms: matched in review sentences (case-insensitive, whole words/phrases).
+# query_terms: extra words that only signal the aspect inside a user query
+#              (e.g. "gaming" means the user cares about performance).
+# description: used by the UI and by the embedding-based query fallback.
+
+aspects:
+  camera:
+    label: Camera
+    description: camera, photo and video quality
+    terms: [camera, cameras, photo, photos, picture quality, pictures, pics, selfie, selfies,
+            lens, megapixel, megapixels, mp camera, front camera, rear camera, video recording,
+            zoom, flash, low light]
+    query_terms: [photography, photographs, photographer, instagram, vlogging, take pictures]
+
+  battery:
+    label: Battery
+    description: battery life and charging
+    terms: [battery, batteries, battery life, charge, charges, charging, charger, mah,
+            drains, drain, draining, lasts all day, last all day, battery lasts, power]
+    query_terms: [long lasting, all-day, all day, endurance, backup]
+
+  display:
+    label: Display
+    description: screen size, sharpness and brightness
+    terms: [screen, screens, display, displays, resolution, brightness, touchscreen,
+            touch screen, amoled, lcd, retina, hd screen, pixels, bright]
+    query_terms: [watching videos, movies, netflix, big screen, large screen]
+
+  performance:
+    label: Performance
+    description: speed, smoothness and gaming performance
+    terms: [performance, processor, cpu, speed, lag, lags, laggy, lagging, freezes, freeze,
+            freezing, frozen, smooth, smoothly, responsive, sluggish, gaming, games, multitasking,
+            runs fast, runs slow, runs smooth, quad core, octa core, snapdragon, ram]
+    query_terms: [gamer, game, pubg, fast phone, powerful, heavy apps, multitask]
+
+  value:
+    label: Price / Value
+    description: price and value for money
+    terms: [price, priced, cost, value, money, cheap, inexpensive, expensive, affordable,
+            worth, bang for the buck, budget, deal, bargain, overpriced]
+    query_terms: [budget, low cost, cheapest, value for money, affordable]
+
+  durability:
+    label: Build / Durability
+    description: build quality and durability
+    terms: [build quality, well built, well made, cheaply made, durable, durability, sturdy,
+            solid, flimsy, broke, broken, breaks, cracked, crack, scratches, scratched,
+            dropped, drop, plastic, metal, glass back, waterproof, water resistant]
+    query_terms: [tough, rugged, rough use, long life, reliable, last for years]
+
+  audio:
+    label: Sound / Audio
+    description: speaker, call audio and headphone sound
+    terms: [speaker, speakers, sound, volume, audio, headphone jack, earpiece, loud,
+            ringtone, music, earphones, headphones]
+    query_terms: [listening, songs, podcasts]
+
+  connectivity:
+    label: Signal / Connectivity
+    description: network signal, calls, wifi and bluetooth
+    terms: [signal, reception, call quality, dropped calls, network, 4g, lte, 3g, wifi,
+            wi-fi, bluetooth, sim, sim card, dual sim, carrier, gps, hotspot]
+    query_terms: [calling, coverage, internet, international, travel, unlocked]
+
+  software:
+    label: Software
+    description: operating system, updates and apps
+    terms: [software, android, ios, update, updates, updated, operating system,
+            bloatware, interface, ui, firmware, apps, app, os]
+    query_terms: [clean android, stock android, latest android]
+
+  storage:
+    label: Storage
+    description: internal storage and memory card support
+    terms: [storage, internal memory, gb, 8gb, 16gb, 32gb, 64gb, 128gb, 256gb, sd card, micro sd, microsd, memory card, space]
+    query_terms: [lots of photos, many apps, expandable]
+
+  ergonomics:
+    label: Size / Comfort
+    description: size, weight and how it feels in the hand
+    terms: [size, fits in my pocket, pocket, in hand, one hand, lightweight, light weight,
+            heavy, weight, compact, bulky, slim, thin, grip, comfortable, ergonomic]
+    query_terms: [small phone, compact phone, easy to hold, one-handed]
+
+# Words in a query that raise or remove the weight of a nearby aspect.
+query_modifiers:
+  emphasis: [excellent, great, best, amazing, outstanding, superb, top, top-notch, very good,
+             really good, longest, must, must have, important, priority, high quality]
+  ignore: ["don't care about", "dont care about", "do not care about", "not important",
+           "doesn't matter", "doesnt matter", "not bothered about", "no need for"]

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Data and generated artifacts (rebuilt by the pipeline)
+data/raw/*
+data/interim/*
+data/processed/*
+artifacts/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!artifacts/.gitkeep
+evaluation/labeling/
+
+# Model caches
+.cache/
+hf_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reviewrec"
+version = "1.0.0"
+description = "Customer review-based product recommendation with NLP and aspect-based sentiment analysis"
+requires-python = ">=3.11,<3.14"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+include = ["reviewrec*", "backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
